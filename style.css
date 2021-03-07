@@ -14,3 +14,95 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 18px
+}
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+.foto-eliska{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;  
+    position: absolute; 
+    left:1035px; 
+    top:-75px;
+    box-shadow:0px 3px 8px 0px #69707275;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 30px solid #ffffff;
+    width: 550px;
+    margin:auto;
+    float: none;  
+    box-shadow:0px 3px 8px 0px #69707275; 
+}
+
+p {
+    margin: 0 0 30px 0;
+}
+
+ul {
+    padding: 0;
+    margin:0;
+}
+
+li {
+    display: block;  
+    padding-bottom: 5px; 
+}
+a {
+    display: block; 
+    text-align: center;  
+}
+
+.twitter {
+    border:0px solid #1da1f2;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1da1f2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform:uppercase; /*převede text na verzálky*/
+    color: #ffffff;
+}
+
+.facebook {
+    border:0px solid #3b5998;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3b5998;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: #ffffff;
+}
+.vizitka {
+    position: relative;
+    top:150px;
+}
+
+a.facebook:hover {
+    background-color: #2b406e;
+}
+
+a.twitter:hover {
+    background-color: #0b7bc1;
+}
