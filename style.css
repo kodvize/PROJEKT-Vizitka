@@ -36,8 +36,8 @@ h1 {
     border-radius: 50%;
     border: 3px solid #ffffff;  
     position: absolute; 
-    left:1035px; 
     top:-75px;
+    right: -75px;
     box-shadow:0px 3px 8px 0px #69707275;
 }
 
@@ -58,6 +58,7 @@ p {
 ul {
     padding: 0;
     margin:0;
+    margin-top: 30px;
 }
 
 li {
@@ -97,6 +98,9 @@ a {
 .vizitka {
     position: relative;
     top:150px;
+    width: 550px; /*nastavení šířky vizitky, aby se pak fotečka nehla*/
+    margin-left: auto; /*díky tomu pak bude mít jinou výchozí pozici*/
+    margin-right: auto; /*díky tomu pak bude mít jinou výchozí pozici*/
 }
 
 a.facebook:hover {
